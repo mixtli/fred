@@ -4,6 +4,7 @@ Gem::Specification.new do |s|
   s.name = %q{fred}
   s.version = "0.1.3"
 
+
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ron McClain"]
   s.date = %q{2009-04-14}
