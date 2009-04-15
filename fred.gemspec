@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{fred}
-  s.version = "0.1.0"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ron McClain"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{Generate a unique token with Active Record.}
   s.email = %q{unknown}
   s.extra_rdoc_files = ["README.rdoc", "lib/fred.rb"]
-  s.files = ["README.rdoc", "lib/fred.rb", "Rakefile", "Manifest", "fred.gemspec"]
+  s.files = ["README.rdoc", "Manifest", "fred.gemspec", "init.rb", "lib/fred.rb", "Rakefile"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/mixtli/fred}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Fred", "--main", "README.rdoc"]
