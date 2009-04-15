@@ -3,7 +3,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('fred', '0.1.2') do |p|
+Echoe.new('fred', '0.1.3') do |p|
   p.description    = "Generate a unique token with Active Record."
   p.url            = "http://github.com/mixtli/fred"
   p.author         = "Ron McClain"

@@ -78,8 +78,7 @@ module Fred
 
 end
 
-# Example Usage:
-#Fred::Base.api_key = "39e6580aa035fa02ef28ac0f5e2752b8"  
+#Fred::Base.api_key = "xxxxxxxxxxxxxxxxxxxx"  
 #
 #puts "Category.get"
 #puts Fred::Category.get(125).inspect
