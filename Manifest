@@ -2,5 +2,6 @@ README.rdoc
 Manifest
 fred.gemspec
 init.rb
+github-test.rb
 lib/fred.rb
 Rakefile
