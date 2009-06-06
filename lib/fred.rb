@@ -64,7 +64,8 @@ module Fred
       puts "URI = " + uri
       doc = Hpricot.XML(open(uri))
       doc.search("/*/*").each do |el|
-        data << el.attributes if el.respond_to?(:attributes)
+        data << {:date => DateTime.parse(el.attributes['date']), :value => el.attributes['value'] } if el.respond_to?(:attributes)
+        #data << el.attributes if el.respond_to?(:attributes)
       end
       data      
     end
