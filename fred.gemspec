@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "fred.gemspec",
      "github-test.rb",
      "init.rb",
      "lib/fred.rb"
